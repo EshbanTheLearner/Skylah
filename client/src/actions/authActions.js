@@ -7,7 +7,6 @@ import{
     SET_CURRENT_USER,
     USER_LOADING
 } from "./types";
-import { decode } from "punycode";
 
 // Register User 
 export const registerUser = (userData, history) => dispatch =>{

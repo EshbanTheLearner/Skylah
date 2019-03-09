@@ -5,6 +5,7 @@ class Landing extends Component{
     render(){
         return(
             <div style={{ height: "75vh" }} className="container valign-wrapper">
+            <div className="row">
                 <div className="col s12 center-align">
                     <h4>
                         <b>Skylah</b> - an Intelligent Chatbot{" "}
@@ -14,6 +15,7 @@ class Landing extends Component{
                     This app helps in pre-diagnosis of depression in a duplex, text based environment
                     </p>
                     <br />
+                    <div className="col s6">
                     <Link
                     to="/register"
                         style={{
@@ -25,6 +27,8 @@ class Landing extends Component{
                     >
                     Register
                     </Link>
+                    </div>
+                    <div className="col s6">
                     <Link
                         to="/login" 
                         style={{
@@ -37,6 +41,8 @@ class Landing extends Component{
                         >
                         Log In
                         </Link>
+                        </div>
+                        </div>
                 </div>
             </div>
         );
