@@ -82,7 +82,7 @@ class Register extends Component{
                                 <label htmlFor="name">Name</label>
                                 <span className="red-text">{errors.name}</span>
                             </div>
-                            <div className="input=field col s12">
+                            <div className="input-field col s12">
                                 <input
                                     onChange={this.onChange}
                                     value={this.state.email}
