@@ -25,35 +25,31 @@ class Navbar extends Component{
             <div className="navbar-fixed">
             <nav className="z-depth-0"> 
             <div className="nav-wrapper white">
-              <Link to="#"
+              <Link to="/"
               style={{
                   paddingLeft: '10px'
               }}
-               className="brand-logo black-text"><b> Skylah</b></Link>
+               className="brand-logo center black-text"><b><i className="material-icons">code</i>SKYLAH</b></Link>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
-                <li>
+              <li>
                     <Link 
-                    to ="#"
-                    style={{
-                        fontFamily: "monospace"
-                    }}
-                    className="black-text">Objective</Link>
+                    to ="/"
+                    className="black-text waves-effect waves-light hoverable accent-3">Home</Link>
                 </li>
                 <li>
                     <Link 
-                    to ="#"
-                    style={{
-                        fontFamily: "monospace"
-                    }}
-                    className="black-text">About Us</Link>
+                    to ="/objective"
+                    className="black-text waves-effect waves-light hoverable">Objective</Link>
                 </li>
                 <li>
                     <Link 
-                    to ="#"
-                    style={{
-                        fontFamily: "monospace"
-                    }}
-                    className="black-text">Join Us</Link>
+                    to ="/about"
+                    className="black-text waves-effect waves-light hoverable">About Us</Link>
+                </li>
+                <li>
+                    <Link 
+                    to ="/joinus"
+                    className="black-text waves-effect waves-light hoverable">Join Us</Link>
                 </li>
                 {/*
                 <li><a href="badges.html">Components</a></li>
